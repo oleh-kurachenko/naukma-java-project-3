@@ -161,7 +161,7 @@ public class JWindow extends JFrame {
 				getContentPane().setLayout(new BorderLayout());
 
 				JLabel label = new JLabel("File is loading...",
-						new ImageIcon("resourses\\loading3.gif"), SwingConstants.CENTER);
+						new ImageIcon("resourses/loading3.gif"), SwingConstants.CENTER);
 				label.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 35));
 				add(label, BorderLayout.CENTER);
 				setResizable(false);
@@ -247,7 +247,7 @@ public class JWindow extends JFrame {
 
 	@SuppressWarnings("serial")
 	private void initiateButtonPanel() {
-		addButton = new JButton("Add", new ImageIcon("resourses\\addIcon.png"));
+		addButton = new JButton("Add", new ImageIcon("resourses/addIcon.png"));
 		setJButtonForButtonPanel(addButton);
 		addButton.addActionListener(new ActionListener() {
 
@@ -272,7 +272,7 @@ public class JWindow extends JFrame {
 
 			}
 		});
-		removeButton = new JButton("Remove", new ImageIcon("resourses\\removeIcon.png"));
+		removeButton = new JButton("Remove", new ImageIcon("resourses/removeIcon.png"));
 		setJButtonForButtonPanel(removeButton);
 		removeButton.addActionListener(new ActionListener() {
 
@@ -282,7 +282,7 @@ public class JWindow extends JFrame {
 			}
 		});
 
-		removeAllButton = new JButton("Clear", new ImageIcon("resourses\\clearAllIcon.png"));
+		removeAllButton = new JButton("Clear", new ImageIcon("resourses/clearAllIcon.png"));
 		setJButtonForButtonPanel(removeAllButton);
 		removeAllButton.addActionListener(new ActionListener() {
 

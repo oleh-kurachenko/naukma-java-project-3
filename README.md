@@ -8,8 +8,7 @@ The main goal of project is to create a primitive search system capable of
 parsing the collection of files and processing requests over this collection.
 
 This system had to have UI representing filesystem as tree for user to be
-able to choose files to be preprocessed. The preprocessing should run in new
-thread.
+able to choose files to be preprocessed.
 
 The search request is word to be found in preprocessed collection of files.
 
@@ -31,7 +30,7 @@ user choice:
 
 You can type your request in the field at the bottom of window. The following
 pop-up with results will appear. Files from collection are sorted in order or
-frequency of requested word appearance in them. Note that tokenization and
+frequency of requested word appearance in them. Note that analysis and
 search algorithms is very primitive:
 
 ![Pop-up window with results](readme_resources/screenshot_4.png)
